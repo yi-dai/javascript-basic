@@ -15,7 +15,7 @@ describe('for array', () => {
 
     // <--start
     // Please write one line of code to push some elements in the array to pass the test
-    array.push(6,7,8)
+    array.push(6, 7, 8);
 
     // --end->
 
@@ -65,8 +65,7 @@ describe('for array', () => {
 
     // <--start
     // Please write down the correct value. You should write the final result directly.
-    const expected = [`Unit ${1} for element at index ${0}`, `Unit ${2} for element at index ${1}`,
-    `Unit ${3} for element at index ${2}`, `Unit ${4} for element at index ${3}`, `Unit ${5} for element at index ${4}`];
+    const expected = [`Unit ${1} for element at index ${0}`, `Unit ${2} for element at index ${1}`, `Unit ${3} for element at index ${2}`, `Unit ${4} for element at index ${3}`, `Unit ${5} for element at index ${4}`];
     // --end->
 
     expect(mapped).toEqual(expected);
